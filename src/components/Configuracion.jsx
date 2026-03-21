@@ -79,16 +79,6 @@ export default function Configuracion() {
         </div>
       </div>
 
-      <div className={styles.card}>
-        <div className={styles.sectionLabel}>EmailJS — cómo configurar los correos reales</div>
-        <ol className={styles.steps}>
-          <li>Ve a <a href="https://www.emailjs.com" target="_blank" rel="noreferrer">emailjs.com</a> y crea una cuenta gratuita.</li>
-          <li>Conecta tu cuenta de Gmail en <strong>Email Services</strong>.</li>
-          <li>Crea 3 plantillas en <strong>Email Templates</strong>: una para la dueña, una para el contador y una para rechazo.</li>
-          <li>Copia tu <strong>Service ID</strong>, <strong>Public Key</strong> y los 3 <strong>Template IDs</strong>.</li>
-          <li>Pégalos en el archivo <code>src/emailConfig.js</code> del proyecto.</li>
-        </ol>
-      </div>
     </div>
   )
 }
